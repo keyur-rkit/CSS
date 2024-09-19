@@ -1,0 +1,130 @@
+/* prevention */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 15px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Navbar styling */
+#home {
+    top: 0;
+    position: sticky;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 20px;
+}
+
+.navbar li a:hover {
+    background-color: #575757;
+}
+
+/* All section common styling */
+#aboutUs,
+#books,
+#contact,
+#location {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Books section styling */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container > div:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); 
+}
+
+/* input fields styling  */
+input[type="submit"],
+input[type="reset"],
+input[type="file"]::file-selector-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="file"]::file-selector-button:hover {
+    background-color: #575757;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+}
+
+textarea {
+    resize: vertical;
+}
+
+.labelForFile {
+    display: inline;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Location styling */
+iframe {
+    border: 0;
+    border-radius: 8px;
+}
