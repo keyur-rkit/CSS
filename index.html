@@ -28,6 +28,13 @@
         <h2>About Us</h2>
         <p>We offer a wide range of books for all your needs. Shop with us and experience the best deals and customer
             service!</p>
+        <h3>Books we provide :</h3>
+        <ol type="I">
+            <li>Atomic Habits</li>
+            <li>IKIGAI</li>
+            <li>Rich Dad Poor Dad</li>
+            <li>One Piece 05</li>
+        </ol>
     </div>
 
     <div id="books">
@@ -45,7 +52,7 @@
                     <input type="submit" value="Add to Cart">
                 </form>
             </div>
-    
+
             <div class="book">
                 <h3>IKIGAI by Francesc Miralles</h3>
                 <img src="images\ikigai.jpg" alt="IKIGAI Image" width="135" height="200">
@@ -57,7 +64,7 @@
                     <input type="submit" value="Add to Cart">
                 </form>
             </div>
-    
+
             <div class="book">
                 <h3>Rich Dad Poor Dad by Robert T. Kiyosaki</h3>
                 <img src="images\richdadpoordad.jpg" alt="Rich Dad Poor Dad Image" width="135" height="200">
@@ -69,7 +76,7 @@
                     <input type="submit" value="Add to Cart">
                 </form>
             </div>
-    
+
             <div class="book">
                 <h3>One Piece 05 by Eiichiro Oda</h3>
                 <img src="images\onepiece05.jpg" alt="One Piece 05 Image" width="135" height="200">
@@ -81,7 +88,7 @@
                     <input type="submit" value="Add to Cart">
                 </form>
             </div>
-    
+
         </div>
     </div>
 
@@ -96,6 +103,10 @@
             <input type="email" id="email" name="email" required>
             <label for="textareaMessage">Message:</label>
             <textarea id="textareaMessage" name="message" rows="5" cols="30"></textarea>
+            <input type="radio" id="radioBtnMale" name="gender" value="male" />
+            <label for="radioBtnMale" class="inline">male</label>
+            <input type="radio" id="radioBtnFemale" name="gender" value="female" />
+            <label for="radioBtnFemale" class="inline" >female</label>
             <label for="file" class="labelForFile">Attach file : </label>
             <input type="file" id="file" name="file" multiple />
             <br>
